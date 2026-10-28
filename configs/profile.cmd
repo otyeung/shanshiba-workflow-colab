@@ -1,5 +1,7 @@
 @echo off
-REM Colab cloud edition: nothing to set here.
-REM The local editions use this file for VRAM/RAM settings; in this edition H3 runs on Google Colab (cloud/colab_h3.py)
-REM and the VM settings are chosen by cloud/vm/setup_h3.py. Kept only so that docs saying "call configs\profile.cmd" do not fail.
-echo [profile] Colab edition: no local settings needed (see cloud/README.md)
+REM Force this project to use Google Colab for generation.
+set "PYTHONUTF8=1"
+set "H3_BACKEND=colab"
+set "UPSCALE=lanczos"
+set "COLAB_POLL=15"
+echo [profile] Google Colab only: H3_BACKEND=colab, UPSCALE=lanczos

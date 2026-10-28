@@ -1,0 +1,40 @@
+{
+  "_comment": "The character reference and first frame were generated with the repository Qwen models on Google Colab. The H3 video was rendered on Google Colab and downloaded before the runtime was stopped.",
+  "_asset_prompts": {
+    "character_reference": "Photorealistic studio identity reference portrait of one original fictional adult Chinese woman, age 25. She has an elegant oval face, warm brown almond-shaped eyes, straight shoulder-length glossy black hair parted near the center, natural eyebrows, subtle natural makeup, and realistic skin texture with visible pores. She wears a simple dark navy satin sleeveless midi dress. Medium close-up bust portrait, facing the camera at eye level, gentle neutral expression, both shoulders visible, plain light grey seamless background, soft even studio lighting, accurate anatomy, sharp focus, restrained editorial photography, natural color balance. Single adult person only. No resemblance to any real person or influencer. No text, logo, watermark, jewelry, props, collage, duplicate person, extra limbs, distorted hands, heavy retouching, plastic skin, or anime style.",
+    "first_frame": "Use <image1> only as the identity and clothing reference. Preserve exactly the same original fictional adult woman's face, age, hairstyle, natural makeup, body proportions, and dark navy satin sleeveless midi dress. Create a new photorealistic vertical luxury travel fashion frame on the private balcony of an upscale coastal hotel. She is seated sideways in a woven rattan lounge chair near a clear glass railing, with a turquoise bay, pale beach, and misty green mountains in the distance beneath a soft cloudy morning sky. Tasteful relaxed pose: torso upright, knees angled together toward the lower right, one forearm resting lightly along the chair arm, the other hand relaxed near her cheek, natural fingers, understated sandals, gentle direct eye contact and a small calm smile. Full body visible from head to feet, centered vertical composition, generous sky above but head safely inside frame, stable horizon, realistic chair and railing geometry. Photorealistic natural skin texture, soft diffused coastal daylight, subtle rim light on hair, navy and turquoise palette, shallow depth of field, subtle 35mm film grain, elegant restrained editorial photography. Exactly one adult woman. No resemblance to any real person or influencer. No nudity, transparent clothing, sexualized pose, text, logo, watermark, captions, extra people, duplicate body parts, extra fingers, fused limbs, warped railing, bent horizon, collage, or anime style."
+  },
+  "duration": 7.1,
+  "size": [768, 1344],
+  "seed": 20261028,
+  "steps": 14,
+  "easycache": false,
+  "style": "a photorealistic vertical luxury travel fashion reel, natural skin texture, soft cinematic color, subtle 35mm film grain, and an elegant restrained editorial finish",
+  "setting": "the private glass balcony of an upscale coastal hotel overlooking a turquoise bay and misty green mountains on a calm morning",
+  "first_frame": "../../first/1.png",
+  "subjects": [
+    {
+      "key": "qiqi",
+      "desc": "Qiqi, an original fictional 25-year-old Chinese woman with an oval face, warm brown eyes, shoulder-length glossy black hair parted near the center, natural makeup, and a slender adult build, wearing a simple dark navy satin sleeveless midi dress and understated sandals",
+      "voice": "N/A",
+      "identity_image": "../../chars/tianqiqi.png"
+    }
+  ],
+  "shots": [
+    {
+      "camera": "The camera makes an extremely slow, smooth push-in while remaining stable at seated eye level and preserving its fixed orientation throughout.",
+      "action": "Qiqi remains seated sideways in the woven balcony chair. She blinks naturally, a light sea breeze moves a few strands of hair and the edge of her dress, then she slowly turns her eyes toward the camera and gives a small relaxed smile. Her hands and fingers stay natural and still. She remains silent with relaxed closed lips.",
+      "dialogue": []
+    }
+  ],
+  "constraints": [
+    "Exactly one adult woman appears for the entire shot, and the composition remains a single-person portrait.",
+    "Preserve the same face, adult age, hairstyle, body proportions, navy dress, chair, balcony railing, coastline, mountains, lighting, and vertical composition from the first frame.",
+    "Keep anatomy realistic and stable: two arms, two hands, five fingers per hand, two legs, and natural joints.",
+    "The balcony railing, horizon, sea, mountains, and chair remain rigid, stable, and consistent in shape.",
+    "Tasteful fashion portrait with opaque clothing covering the torso and legs.",
+    "All surfaces remain blank and unbranded; the frame contains only the woman, chair, balcony, and coastal scenery."
+  ],
+  "soundscape": "Soft coastal wind and faint distant waves in a clean, quiet, voice-free mix.",
+  "music": "Soft airy purely instrumental fashion-reel music with a gentle modern beat."
+}
